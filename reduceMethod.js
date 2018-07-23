@@ -1,4 +1,4 @@
-let reduceMethod = [1,2,3,4];
+let reduceMethod = [1,2,3,4,5,6,7,8,9,10,11];
 let ini = 0;
 
 for(let i=0;i<reduceMethod.length;i++){
@@ -13,4 +13,7 @@ for (let theArray of reduceMethod){
 
 var result = reduceMethod.reduce((initilizer,myArray) => initilizer+myArray);
 console.log(result);//10
+
+let greaterThanFive = reduceMethod.reduce((a,b) => b>a?b:a);
+console.log(greaterThanFive);
 
