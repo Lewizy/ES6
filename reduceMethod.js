@@ -13,3 +13,4 @@ for (let theArray of reduceMethod){
 
 var result = reduceMethod.reduce((initilizer,myArray) => initilizer+myArray);
 console.log(result);//10
+
