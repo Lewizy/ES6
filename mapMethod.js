@@ -1,4 +1,4 @@
-const mapMethod = [-2,9.56,6,10.90];
+const mapMethod = [-2,9.5,6,10.90,3,7,-5,8,4];
 
 let fractionsToIntegers = mapMethod.map(Math.floor);
 console.log(fractionsToIntegers);//transform to integers
