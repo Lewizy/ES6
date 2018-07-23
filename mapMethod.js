@@ -16,4 +16,4 @@ let randomIntegers = mapMethod.map(x => Math.floor(Math.random()*10));
 console.log(randomIntegers);
 
 let tenRandomNumbers = new Array(10).fill(0).map(x => Math.floor(Math.random()*5));
-console.log(tenRandomNumbers);
+console.log(tenRandomNumbers); 
