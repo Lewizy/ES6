@@ -13,7 +13,7 @@ function getLength(str) {
   const {length:len} = str;
   return len;
 }
-console.log("length: "+getLength('FreeCodeCamp'));
+console.log("length: "+getLength('codingIsAwesome'));
 /////////////////////////////////////////////////////////////
 
 //ES6: Use Destructuring Assignment to Assign Variables from Nested Objects
