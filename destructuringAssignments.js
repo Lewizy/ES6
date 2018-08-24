@@ -52,6 +52,15 @@ function destructuredParameters ({a,b,c},{max,min},{oddNum1,oddNum2,oddNum3}){
   [...restOperatorArr]=[11,22,33,44,55];
   console.log("restOpeArr :"+restOperatorArr[3]*oddNum1);
 
+  const half = (function() {
+  "use strict"; // do not change this line
+  return function half({max,min}) {
+    return (max +min) / 2.0;
+  };
+  })();
+  console.log(stats); // should be object
+  console.log(half(stats));
+
   function getMaxOfTmrw(forecast) {
   "use strict";
   const { tomorrow: {max:maxOfTomorrow}} = forecast; 
@@ -68,5 +77,6 @@ function destructuredParameters ({a,b,c},{max,min},{oddNum1,oddNum2,oddNum3}){
 }
 destructuredParameters(singleNums,stats,oddNumbers,evenNumsArr);//6
 //destructuredObjParameters(stats);
+
 
 
